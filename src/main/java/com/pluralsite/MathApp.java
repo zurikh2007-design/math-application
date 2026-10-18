@@ -35,8 +35,23 @@ public class MathApp {
         System.out.println("The distance is... " + distance1 + ", " + distance2);
 
         //absolute positive
+        double var = -3.8;
+        double absMath = Math.abs(var);
+        System.out.println("Positive Value is... " + var);
 
+        // Random
+        double rando = (double) (Math.random() * 1);
+        System.out.println("Random number between 0 amd 1... " + rando);
 
+        // Calculations
+        int days = 24;
+        int hours = 24;
+        int minutes = 60;
+
+        int howManyHours = days * hours;
+        int howManyMinutes = howManyHours * minutes;
+
+        System.out.println("There are " + howManyMinutes + "min in 24 days");
     }
 
 }
